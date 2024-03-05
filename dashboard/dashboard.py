@@ -42,7 +42,7 @@ def create_weather_rentals_df(df):
     }).sort_values(by='total', ascending=False)
 
 # Load data
-df = pd.read_csv("day_data.csv")
+df = pd.read_csv("dashboard/day_data.csv")
 
 min_date = pd.to_datetime(df['date']).dt.date.min()
 max_date = pd.to_datetime(df['date']).dt.date.max()
