@@ -49,7 +49,7 @@ max_date = pd.to_datetime(df['date']).dt.date.max()
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("logo.jpg")
+    st.image("assets/logo.jpg")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
