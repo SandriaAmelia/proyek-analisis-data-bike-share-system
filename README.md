@@ -11,3 +11,5 @@ pip install pandas scipy matplotlib seaborn jupyter streamlit
 ```
 streamlit run dashboard.py
 ```
+
+<a href="https://bike-share-system-sandriaap.streamlit.app/">Access the dashboard here</a>
